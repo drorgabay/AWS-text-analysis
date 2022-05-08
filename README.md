@@ -13,7 +13,9 @@ The tool is running on AWS using EC2, S3 and SQS to manage and distribute the pa
 
 ## Activation
 
-You need to set up your AWS credentials, as shown in [**this guide**](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html). 
+You need to set up your AWS credentials, as shown in [**this guide**](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html).
+You need to create JAR files from the Classes "Worker" and "tools/AWSAbstractions" and "tools/Parser" named worker-1.0.jar.
+You also need to create JAR file from the Classes "Manager", "ManagerTask", "ManagerWorkerCommuinication", "WorkerConnection" and "tools/AWSAbstractions" names manager-1.0.jar.
 Once you did that, simply run the command `java -jar localapplication.jar inputFileName outputFileName n [terminate]` in command prompt.
 
 ## Notes on the project
