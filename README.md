@@ -1,4 +1,3 @@
-
 # AWS-Text Analysis
 A tool for parsing text files created by [**Dror**](https://github.com/drorgabay) and [**Tom**](https://github.com/ToMax446).
 This tool was created using [**Stanford's Parser**](https://stanfordnlp.github.io/CoreNLP/parser-standalone.html), and allows for multiple parsing options on many text files.
