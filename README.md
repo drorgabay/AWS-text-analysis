@@ -1,7 +1,7 @@
 # AWS-Text Analysis
 A tool for parsing text files created by [**Dror**](https://github.com/drorgabay) and [**Tom**](https://github.com/ToMax446).
 This tool was created using [**Stanford's Parser**](https://stanfordnlp.github.io/CoreNLP/parser-standalone.html), and allows for multiple parsing options on many text files.
-The tool is running on AWS using EC2, S3 and SQS to manage and distribute the parsing in the [**"Map Reduce"**](https://en.wikipedia.org/wiki/MapReduce) model.
+The tool is running on AWS using EC2, S3 and SQS to manage and distribute the parsing requests for each client.
 
 
 
